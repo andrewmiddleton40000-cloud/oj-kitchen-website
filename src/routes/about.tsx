@@ -14,7 +14,7 @@ export const Route = createFileRoute('/about')({
       { title: `About Us | ${SITE.name}` },
       {
         name: 'description',
-        content: `${SITE.name} makes healthy living and cooking easier through quality, convenience and good food — home-style Nigerian meals and OJ Fresh Cuts in Lagos.`,
+        content: `${SITE.name} makes healthy living and cooking easier through quality, convenience and good food — home-style Nigerian meals and O.J FRESH CUTS in Lagos.`,
       },
     ],
   }),
@@ -74,7 +74,7 @@ function AboutPage() {
             <p>
               Our sub-brand,{' '}
               <strong className="font-semibold text-forest">
-                OJ Fresh Cuts
+                O.J FRESH CUTS
               </strong>
               , offers fresh, clean, washed, peeled and neatly cut vegetables,
               salad ingredients and cooking essentials, so you can skip the prep
@@ -134,7 +134,7 @@ function AboutPage() {
         >
           <span>
             <span className="eyebrow flex items-center gap-1.5 text-[#d6dcbf]">
-              <Leaf className="size-3.5" /> OJ Fresh Cuts
+              <Leaf className="size-3.5" /> O.J FRESH CUTS
             </span>
             <span className="mt-2 block font-display text-2xl font-semibold">
               Shop fresh cuts

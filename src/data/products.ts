@@ -1,6 +1,6 @@
 /**
  * ─────────────────────────────────────────────────────────────
- *  O.J KITCHEN MENU & OJ FRESH CUTS CATALOGUE
+ *  O.J KITCHEN MENU & O.J FRESH CUTS CATALOGUE
  * ─────────────────────────────────────────────────────────────
  *  This is the single place to update the menu.
  *
@@ -72,7 +72,7 @@ export const CATEGORIES: Category[] = [
   },
   {
     id: 'fresh-cuts',
-    name: 'OJ Fresh Cuts',
+    name: 'O.J FRESH CUTS',
     brand: 'fresh',
     blurb:
       'Clean, washed, peeled and neatly cut vegetables and cooking essentials — ready for your pot.',
@@ -302,7 +302,7 @@ export const PRODUCTS: Product[] = [
     price: null,
   },
 
-  // ── OJ Fresh Cuts ────────────────────────────────────────────
+  // ── O.J FRESH CUTS ────────────────────────────────────────────
   {
     id: 'fresh-cut-vegetables',
     name: 'Fresh-Cut Vegetables',

@@ -25,7 +25,7 @@ export function SiteFooter() {
                   O.J KITCHEN
                 </p>
                 <p className="text-xs tracking-[0.2em] text-gold uppercase">
-                  &amp; <span className="text-[#b9c29b]">OJ Fresh Cuts</span>
+                  &amp; <span className="text-[#b9c29b]">O.J FRESH CUTS</span>
                 </p>
               </div>
             </div>

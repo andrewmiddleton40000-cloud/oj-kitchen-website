@@ -58,7 +58,7 @@ function MenuPage() {
               to="/fresh-cuts"
               className="inline-flex rounded-full border border-forest/25 bg-white px-4 py-2 text-sm font-semibold text-forest transition-colors hover:bg-forest hover:text-white motion-reduce:transition-none"
             >
-              OJ Fresh Cuts
+              O.J FRESH CUTS
             </Link>
           </li>
         </ul>
@@ -101,7 +101,7 @@ function MenuPage() {
           <div className="max-w-xl">
             <p className="eyebrow text-forest">Also from O.J KITCHEN</p>
             <p className="mt-2 font-display text-2xl font-semibold sm:text-3xl">
-              Cooking at home? Add OJ Fresh Cuts to the same order.
+              Cooking at home? Add O.J FRESH CUTS to the same order.
             </p>
             <p className="mt-2 text-muted-foreground">
               Washed, peeled and neatly cut vegetables, salad ingredients and

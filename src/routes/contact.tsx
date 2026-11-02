@@ -68,7 +68,7 @@ function ContactPage() {
         as="h1"
         eyebrow="Contact us"
         title="We’d love to hear from you"
-        intro="Orders, questions, catering enquiries — reach O.J KITCHEN and OJ Fresh Cuts on any of the channels below."
+        intro="Orders, questions, catering enquiries — reach O.J KITCHEN and O.J FRESH CUTS on any of the channels below."
       />
 
       <ul className="mt-12 grid gap-4 sm:grid-cols-2">

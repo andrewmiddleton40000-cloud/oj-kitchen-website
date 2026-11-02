@@ -15,12 +15,12 @@ export const Route = createFileRoute('/fresh-cuts')({
   head: () => ({
     meta: [
       {
-        title: `OJ Fresh Cuts | Washed, Peeled & Cut Vegetables | ${SITE.name}`,
+        title: `O.J FRESH CUTS | Washed, Peeled & Cut Vegetables | ${SITE.name}`,
       },
       {
         name: 'description',
         content:
-          'OJ Fresh Cuts by O.J KITCHEN: clean, washed, peeled and neatly cut vegetables, salad ingredients and cooking essentials delivered across Lagos.',
+          'O.J FRESH CUTS by O.J KITCHEN: clean, washed, peeled and neatly cut vegetables, salad ingredients and cooking essentials delivered across Lagos.',
       },
     ],
   }),
@@ -58,7 +58,7 @@ function FreshCutsPage() {
     <>
       <PageHero
         tone="fresh"
-        eyebrow="OJ Fresh Cuts · by O.J KITCHEN"
+        eyebrow="O.J FRESH CUTS · by O.J KITCHEN"
         title="Skip the prep. Go straight to the pot."
         intro={
           category?.blurb ??
@@ -68,7 +68,7 @@ function FreshCutsPage() {
       >
         <WhatsAppButton
           variant="gold"
-          message={`Hello ${SITE.name}! I'd like to order from OJ Fresh Cuts. What's available today?`}
+          message={`Hello ${SITE.name}! I'd like to order from O.J FRESH CUTS. What's available today?`}
         >
           Order Fresh Cuts on WhatsApp
         </WhatsAppButton>

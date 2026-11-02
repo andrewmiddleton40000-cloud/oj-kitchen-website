@@ -38,7 +38,7 @@ export function CartLineItem({
                 p.brand === 'fresh' ? 'text-forest' : 'text-burgundy',
               )}
             >
-              {p.brand === 'fresh' ? 'OJ Fresh Cuts' : 'O.J KITCHEN'}
+              {p.brand === 'fresh' ? 'O.J FRESH CUTS' : 'O.J KITCHEN'}
             </p>
             <p className="truncate font-display text-lg leading-tight font-semibold">
               {p.name}

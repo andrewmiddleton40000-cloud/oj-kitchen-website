@@ -64,7 +64,7 @@ const WHY = [
 ]
 
 const STEPS = [
-  { title: 'Browse', text: 'Explore our meals and OJ Fresh Cuts.' },
+  { title: 'Browse', text: 'Explore our meals and O.J FRESH CUTS.' },
   { title: 'Add to cart', text: 'Choose quantities and soup bowl sizes.' },
   {
     title: 'Send on WhatsApp',
@@ -89,7 +89,7 @@ function Home() {
             <Reveal>
               <p className="eyebrow inline-flex items-center gap-2 rounded-full bg-white px-3 py-1.5 text-burgundy ring-1 ring-border">
                 <span className="size-1.5 rounded-full bg-gold" />
-                O.J KITCHEN · OJ Fresh Cuts · Lagos
+                O.J KITCHEN · O.J FRESH CUTS · Lagos
               </p>
             </Reveal>
             <Reveal delay={80}>
@@ -174,7 +174,7 @@ function Home() {
               </div>
             </div>
             <div className="absolute top-5 right-5 hidden rounded-full bg-forest px-4 py-2 text-xs font-semibold text-white shadow-lg sm:block">
-              New · OJ Fresh Cuts
+              New · O.J FRESH CUTS
             </div>
           </Reveal>
         </div>
@@ -301,13 +301,13 @@ function Home() {
         )}
       </section>
 
-      {/* ── OJ Fresh Cuts ────────────────────────────────── */}
+      {/* ── O.J FRESH CUTS ────────────────────────────────── */}
       <section className="bg-sage-soft">
         <div className="mx-auto grid max-w-content items-center gap-12 px-4 py-16 sm:px-6 lg:grid-cols-2 lg:py-24">
           <Reveal className="relative order-last lg:order-first">
             <img
               src={img('/img/fresh-hero.jpg', 900, 720)}
-              alt="Freshly washed and neatly cut vegetables from OJ Fresh Cuts"
+              alt="Freshly washed and neatly cut vegetables from O.J FRESH CUTS"
               loading="lazy"
               className="aspect-[5/4] w-full rounded-[2rem] object-cover"
             />
@@ -321,7 +321,7 @@ function Home() {
           <div>
             <SectionHeading
               tone="fresh"
-              eyebrow="Introducing OJ Fresh Cuts"
+              eyebrow="Introducing O.J FRESH CUTS"
               title={
                 <>
                   Cooking made easier,{' '}
