@@ -1,6 +1,6 @@
 # O.J KITCHEN website
 
-Catalogue and WhatsApp ordering site for O.J KITCHEN and its sub-brand OJ Fresh Cuts (Lagos State). Customers browse meals and fresh-cut vegetables, build a cart (saved in the browser), and send the order as a pre-filled WhatsApp message. No backend, accounts or payment gateway — payment and delivery are arranged on WhatsApp.
+Catalogue and WhatsApp ordering site for O.J KITCHEN and its sub-brand O.J FRESH CUTS (Lagos State). Customers browse meals and fresh-cut vegetables, build a cart (saved in the browser), and send the order as a pre-filled WhatsApp message. No backend, accounts or payment gateway — payment and delivery are arranged on WhatsApp.
 
 ## Tech
 TanStack Start (React 19, TypeScript), Tailwind CSS 4, Netlify hosting and Image CDN.

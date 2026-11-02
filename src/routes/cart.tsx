@@ -132,7 +132,7 @@ function CartPage() {
               to="/fresh-cuts"
               className="rounded-full bg-forest px-6 py-3 font-semibold text-white hover:bg-forest-deep"
             >
-              OJ Fresh Cuts
+              O.J FRESH CUTS
             </Link>
           </div>
         </div>

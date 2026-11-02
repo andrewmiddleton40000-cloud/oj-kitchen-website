@@ -19,7 +19,7 @@ import { cn } from '@/lib/utils'
 export const NAV = [
   { to: '/', label: 'Home' },
   { to: '/menu', label: 'Our Meals' },
-  { to: '/fresh-cuts', label: 'OJ Fresh Cuts' },
+  { to: '/fresh-cuts', label: 'O.J FRESH CUTS' },
   { to: '/catering', label: 'Catering' },
   { to: '/about', label: 'About' },
   { to: '/contact', label: 'Contact' },

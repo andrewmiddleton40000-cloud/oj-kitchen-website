@@ -4,10 +4,10 @@
  */
 export const SITE = {
   name: 'O.J KITCHEN',
-  subBrand: 'OJ Fresh Cuts',
+  subBrand: 'O.J FRESH CUTS',
   tagline: 'Good Food. Healthy Living. Made Convenient.',
   description:
-    'O.J KITCHEN serves fresh, nutritious, home-style Nigerian meals and OJ Fresh Cuts prepares washed, peeled and neatly cut vegetables — delivered across Lagos State. Order easily via WhatsApp.',
+    'O.J KITCHEN serves fresh, nutritious, home-style Nigerian meals and O.J FRESH CUTS prepares washed, peeled and neatly cut vegetables — delivered across Lagos State. Order easily via WhatsApp.',
   mission:
     'To make healthy living and cooking easier through quality, convenience and good food.',
   phoneDisplay: '0901 965 9779',
