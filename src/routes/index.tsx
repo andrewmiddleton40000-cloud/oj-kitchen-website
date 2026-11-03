@@ -17,6 +17,7 @@ import {
   WhatsAppCta,
 } from '@/components/site/sections'
 import { PriceLabel } from '@/components/site/product-card'
+import { Testimonials } from '@/components/site/testimonials'
 import { unitPriceFor } from '@/lib/order'
 
 export const Route = createFileRoute('/')({
@@ -440,6 +441,8 @@ function Home() {
           </Reveal>
         </div>
       </section>
+
+      <Testimonials />
 
       <WhatsAppCta />
     </>
