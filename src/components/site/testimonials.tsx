@@ -1,7 +1,6 @@
 import { Quote } from "lucide-react";
 import { Card } from "@/components/ui/card";
 import { TESTIMONIALS } from "@/data/testimonials";
-import { cn } from "@/lib/utils";
 
 export function Testimonials() {
   return (
@@ -21,7 +20,7 @@ export function Testimonials() {
         <div className="mx-auto max-w-2xl text-center">
           <p className="eyebrow mb-5 inline-flex items-center gap-3 text-burgundy">
             <span aria-hidden="true" className="h-px w-8 bg-gold" />
-            From our table to yours
+            Better food, happy belle
             <span aria-hidden="true" className="h-px w-8 bg-gold" />
           </p>
           <h2
@@ -31,28 +30,19 @@ export function Testimonials() {
             Loved by Our <em className="font-normal">Customers</em>
           </h2>
           <p className="mt-4 text-base leading-relaxed text-pretty text-muted-foreground sm:text-lg">
-            Good food, great experiences and happy customers. Here's what people
-            have to say about OJ Kitchen.
+            Good food wey go make you smile. From our home-style meals to fresh
+            cuts, na care we put for every order. Hear wetin our customers have
+            to say about OJ Kitchen.
           </p>
         </div>
 
         <ul className="mx-auto mt-12 grid max-w-6xl gap-6 md:grid-cols-2 lg:mt-16 lg:gap-8">
-          {TESTIMONIALS.map(({ name, quote }, index) => (
+          {TESTIMONIALS.map(({ name, quote }) => (
             <li key={name} className="min-w-0">
-              <Card
-                className={cn(
-                  "relative h-full overflow-hidden rounded-[1.75rem] p-7 shadow-[0_12px_40px_-24px_var(--burgundy)] transition-transform duration-300 hover:-translate-y-1 motion-reduce:transform-none motion-reduce:transition-none sm:p-9 lg:p-10",
-                  index === 0
-                    ? "border-burgundy bg-burgundy text-white"
-                    : "border-gold/25 bg-card text-card-foreground",
-                )}
-              >
+              <Card className="relative h-full overflow-hidden rounded-[1.75rem] border-burgundy bg-burgundy p-7 text-white shadow-[0_12px_40px_-24px_var(--burgundy)] transition-transform duration-300 hover:-translate-y-1 motion-reduce:transform-none motion-reduce:transition-none sm:p-9 lg:p-10">
                 <span
                   aria-hidden="true"
-                  className={cn(
-                    "pointer-events-none absolute -right-10 -top-10 size-40 rounded-full border-[24px]",
-                    index === 0 ? "border-gold/10" : "border-gold/5",
-                  )}
+                  className="pointer-events-none absolute -right-10 -top-10 size-40 rounded-full border-[24px] border-gold/10"
                 />
                 <figure className="relative flex h-full flex-col">
                   <Quote
@@ -63,19 +53,9 @@ export function Testimonials() {
                   <blockquote className="flex-1 font-display text-xl leading-[1.65] sm:text-[1.4rem]">
                     <p>{quote}</p>
                   </blockquote>
-                  <figcaption
-                    className={cn(
-                      "mt-8 flex items-center gap-3 border-t pt-6",
-                      index === 0 ? "border-gold/25" : "border-border/70",
-                    )}
-                  >
+                  <figcaption className="mt-8 flex items-center gap-3 border-t border-gold/25 pt-6">
                     <span aria-hidden="true" className="h-px w-8 bg-gold" />
-                    <span
-                      className={cn(
-                        "text-sm font-semibold tracking-wide",
-                        index === 0 ? "text-gold" : "text-burgundy",
-                      )}
-                    >
+                    <span className="text-sm font-semibold tracking-wide text-gold">
                       {name}
                     </span>
                   </figcaption>
